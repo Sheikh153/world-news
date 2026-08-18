@@ -6,8 +6,8 @@ export default function Footer() {
   return (
     <footer className="bg-ink text-paper/90 mt-auto">
       <div className="max-w-[1180px] mx-auto px-6 pt-14 pb-8">
-        <div className="grid grid-cols-[1.4fr_1fr_1fr] gap-12 pb-10 border-b border-paper/10">
-          <div>
+        <div className="grid grid-cols-2 sm:grid-cols-[1.4fr_1fr_1fr] gap-8 sm:gap-12 pb-10 border-b border-paper/10">
+          <div className="col-span-2 sm:col-span-1">
             <div className="font-display text-2xl font-bold text-paper mb-3">
               {site.name}
             </div>
@@ -65,12 +65,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex items-center justify-between pt-6">
+        <div className="pt-6">
           <span className="text-paper/40 text-xs">
             © {new Date().getFullYear()} {site.name}. All rights reserved.
-          </span>
-          <span className="text-paper/40 text-xs">
-            Built for editorial &amp; SEO practice
           </span>
         </div>
       </div>
