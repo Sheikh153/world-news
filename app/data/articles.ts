@@ -5,7 +5,8 @@
 export type ContentBlock =
   | { type: "p"; text: string }
   | { type: "h2"; text: string }
-  | { type: "h3"; text: string };
+  | { type: "h3"; text: string }
+  | { type: "ul"; items: string[] };
 
 export type Article = {
   slug: string;
@@ -308,6 +309,288 @@ export const articles: Article[] = [
       {
         type: "p",
         text: "Much of current preparedness work is intentionally unglamorous: strengthening routine health systems, maintaining stockpiles that may never be used, and running response drills for pathogens that may never emerge. The measure of success is essentially invisible — an outbreak contained before it becomes a headline at all.",
+      },
+    ],
+  },
+  {
+    slug: "paris-agreement-implementation-progress",
+    title: "Paris Agreement Implementation Progress: What the Data Shows",
+    metaDescription:
+      "Paris Agreement implementation progress is measured through NDC submissions, transparency reports, and emissions trajectories. See what the latest UNFCCC data actually reveals.",
+    excerpt:
+      "A decade after adoption, NDC filings, emissions data, and the outcomes of COP30 show where Paris Agreement implementation is working — and where it still falls short.",
+    category: "climate",
+    tags: ["Paris Agreement", "climate policy", "UNFCCC"],
+    author: "Your Name",
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    readTime: "5 min read",
+    coverImage: "https://picsum.photos/seed/paris-agreement-implementation-progress/1200/700",
+    coverImageAlt: "Eiffel Tower silhouetted against a red sunset over the Paris skyline",
+    content: [
+      {
+        type: "p",
+        text: "Paris Agreement implementation progress is tracked through a specific, structured process rather than general goodwill. Countries submit national climate plans, report on their own emissions transparently, and periodically take stock of how far the collective effort has come. A decade after the agreement was adopted, that machinery is producing a clearer picture than ever of where implementation stands, and it shows real movement alongside real gaps.",
+      },
+      {
+        type: "p",
+        text: "This piece breaks down what current data says about Paris Agreement implementation progress, from national pledges to the outcomes of COP30.",
+      },
+      {
+        type: "h2",
+        text: "Where Paris Agreement Implementation Progress Stands on NDCs",
+      },
+      {
+        type: "p",
+        text: "Nationally determined contributions, or NDCs, are the core building block of Paris Agreement implementation progress. Each country's NDC lays out its emissions targets and the policies meant to achieve them, and each successive round is meant to represent a step up in ambition from the one before.",
+      },
+      {
+        type: "p",
+        text: "As of mid 2026, the Paris Agreement Implementation and Compliance Committee reported that NDC submissions had climbed to 149 Parties, with 10 additional NDCs communicated between its 16th and 17th meetings alone. Even so, 45 Parties had not yet communicated their new NDCs by that point, and 14 had not submitted all mandatory reports required under the Enhanced Transparency Framework.",
+      },
+      {
+        type: "h3",
+        text: "What the New NDCs Actually Contain",
+      },
+      {
+        type: "p",
+        text: "The 2025 NDC Synthesis Report, covering 64 new submissions recorded between January 2024 and September 2025, gives the clearest signal yet of how implementation is evolving in practice. A few findings stand out:",
+      },
+      {
+        type: "ul",
+        items: [
+          "89 percent of Parties now communicate economy wide targets, up from 81 percent in their previous NDCs",
+          "88 percent of Parties say their new NDCs were informed by the outcomes of the first Global Stocktake",
+          "73 percent of the new NDCs include an adaptation component, reflecting a broader shift beyond emissions targets alone",
+          "Collectively, the new NDCs point to a projected emissions reduction of 17 percent below 2019 levels, within a range of 11 to 24 percent",
+        ],
+      },
+      {
+        type: "p",
+        text: "The report is careful to note its limits. Those 64 new NDCs cover only about 30 percent of total global emissions in 2019, so the findings offer useful signals about direction rather than a full global verdict.",
+      },
+      {
+        type: "h2",
+        text: "How the Wider Emissions Picture Looks",
+      },
+      {
+        type: "p",
+        text: "Zooming out from individual NDCs to the global trajectory, the United Nations Environment Programme's Emissions Gap Report 2025 found that full implementation of current pledges still points to roughly 2.3 to 2.5 degrees Celsius of warming this century, well above the Paris Agreement's core targets. Under current policies alone, that figure rises to about 2.8 degrees.",
+      },
+      {
+        type: "p",
+        text: "The report noted that some of the apparent improvement compared with the previous year came from methodological updates rather than genuinely stronger pledges, and that the planned US withdrawal from the Paris Agreement was expected to offset a portion of the modest gains.",
+      },
+      {
+        type: "h2",
+        text: "What COP30 Added to Paris Agreement Implementation Progress",
+      },
+      {
+        type: "p",
+        text: "COP30, held in Belem, Brazil, produced the Belem Package, adopted by 195 countries and framed by negotiators as a way to keep the multilateral process moving even without a dramatic leap in ambition. A few concrete outcomes tied directly to implementation:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Parties agreed to at least triple adaptation finance by 2035",
+          "A formal roadmap for 2026 through 2028 was established to structure implementation work ahead of the next Global Stocktake",
+          "Public utility companies, through the Utilities for Net Zero Alliance, pledged 66 billion dollars annually for renewables and 82 billion dollars annually for transmission and storage",
+          "Several observer groups, including REN21, said the outcome still fell short of setting clear implementation pathways on finance and technology transfer",
+        ],
+      },
+      {
+        type: "h2",
+        text: "The Transparency Side of Implementation",
+      },
+      {
+        type: "p",
+        text: "Paris Agreement implementation progress depends as much on honest reporting as on ambitious targets. The Enhanced Transparency Framework requires countries to submit Biennial Transparency Reports, and the first BTR synthesis report, presented at COP30, offered the clearest snapshot yet of implementation across mitigation, adaptation, and support. That report is intended to directly feed into the next Global Stocktake, keeping the cycle of pledge, report, and review moving forward.",
+      },
+      {
+        type: "h2",
+        text: "Related Reading",
+      },
+      {
+        type: "p",
+        text: "For deeper coverage of global emissions trends, national climate pledges, and the pathway toward the Paris Agreement's temperature targets, explore our Climate section.",
+      },
+      {
+        type: "p",
+        text: "For analysis on how climate diplomacy, international finance commitments, and shifting national priorities are shaping global cooperation, explore our Geopolitics section.",
+      },
+      {
+        type: "p",
+        text: "Sources: UNFCCC, Paris Agreement Implementation and Compliance Committee updates and 2025 NDC Synthesis Report; United Nations Environment Programme, Emissions Gap Report 2025; COP30 Belem Package outcomes as reported by UN News and REN21.",
+      },
+    ],
+  },
+  {
+    slug: "green-energy-grid-modernization",
+    title: "Green Energy Grid Modernization: What It Means for 2026",
+    metaDescription:
+      "Green energy grid modernization is reshaping how power moves worldwide. See what IEA, UNEP, and COP30 data reveal about the transition ahead.",
+    excerpt:
+      "Solar, wind, and battery storage are being built faster than aging grids can absorb, making modernization the real bottleneck in the clean energy transition.",
+    category: "climate",
+    tags: ["renewable energy", "power grids", "clean energy transition"],
+    author: "Your Name",
+    publishedAt: "2026-08-17",
+    updatedAt: "2026-08-17",
+    readTime: "6 min read",
+    coverImage: "https://picsum.photos/seed/green-energy-grid-modernization/1200/700",
+    coverImageAlt: "Two engineers in hard hats inspecting a row of solar panels under a clear sky",
+    content: [
+      {
+        type: "p",
+        text: "Power grids built for the last century are running into a very modern problem. Solar farms, wind projects, electric vehicles, and battery storage are being added faster than old infrastructure can absorb them. That mismatch is exactly why green energy grid modernization has become one of the most talked about issues in global energy policy this year. It is no longer a niche engineering topic. It is a question about whether the clean energy transition can actually keep its promises on time.",
+      },
+      {
+        type: "p",
+        text: "This piece breaks down what green energy grid modernization actually involves, why it matters right now, and what recent global data says about where things stand.",
+      },
+      {
+        type: "h2",
+        text: "What Green Energy Grid Modernization Actually Means",
+      },
+      {
+        type: "p",
+        text: "At its core, green energy grid modernization refers to upgrading electricity networks so they can handle a much larger and more varied mix of power sources. That includes:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Solar and wind generation, which fluctuate depending on weather",
+          "Battery storage systems that need fast, flexible connections",
+          "Electric vehicle charging, which adds new and unpredictable demand",
+          "Digital sensors and automation that help operators respond in real time",
+        ],
+      },
+      {
+        type: "p",
+        text: "Traditional grids were designed around a simple model. A handful of large power plants sent electricity in one direction to homes and businesses. That model does not work well anymore. Today's grids need to handle power flowing in multiple directions, sometimes from a single rooftop solar system back into the network.",
+      },
+      {
+        type: "h2",
+        text: "Why the World Is Paying Attention Now",
+      },
+      {
+        type: "p",
+        text: "According to the International Energy Agency's State of Energy Policy 2026 report, government spending on power generation and grid infrastructure has more than doubled since 2015, reaching around 135 billion dollars in 2025 alone. That is not a small shift. It signals that governments increasingly see grid capacity, not just clean generation, as the real bottleneck.",
+      },
+      {
+        type: "p",
+        text: "The IEA's companion report, Electricity 2026, puts a number on the scale of the problem. Grid connection queues have hit record levels worldwide, and a lack of capacity is now slowing the deployment of new generation, storage, and demand projects. The report estimates that faster permitting, smarter regulation, and grid enhancing technologies could together unlock enough capacity to connect between 1,200 and 1,600 gigawatts of stalled projects.",
+      },
+      {
+        type: "p",
+        text: "In plain terms, there is enough clean energy ready to go. What is missing is the modernized infrastructure to move it where it is needed.",
+      },
+      {
+        type: "h2",
+        text: "The Climate Stakes Behind Grid Modernization",
+      },
+      {
+        type: "p",
+        text: "The urgency around green energy grid modernization is not abstract. It is tied directly to global climate targets.",
+      },
+      {
+        type: "p",
+        text: "The United Nations Environment Programme's Emissions Gap Report 2025, titled Off Target, found that even with new national climate pledges, the world remains on track for roughly 2.3°C to 2.5°C of warming this century. Under current policies alone, that figure rises to about 2.8°C. Both numbers sit well above the Paris Agreement goal.",
+      },
+      {
+        type: "p",
+        text: "The report also noted that global emissions need to fall by 35 percent by 2035 compared with 2019 levels to stay aligned with a 2°C pathway, and by 55 percent to stay aligned with 1.5°C. Reaching those targets depends heavily on how quickly renewable electricity can actually reach consumers, which brings the conversation back to grid capacity.",
+      },
+      {
+        type: "p",
+        text: "Slow moving infrastructure does not just delay clean power projects. It delays climate progress itself.",
+      },
+      {
+        type: "h2",
+        text: "What Happened at COP30 in Belem",
+      },
+      {
+        type: "p",
+        text: "Global climate diplomacy also weighed in this year. COP30, held in Belem, Brazil, produced what became known as the Belem Package, adopted by 195 countries. It included a pledge to triple adaptation finance by 2035 and launched a formal roadmap for the years ahead.",
+      },
+      {
+        type: "p",
+        text: "One outcome stood out for the energy sector specifically. The Utilities for Net Zero Alliance, made up of public utility companies, pledged 66 billion dollars annually toward renewable energy and 82 billion dollars annually toward transmission and storage. That distinction matters. Money aimed specifically at transmission and storage is, in effect, money aimed at green energy grid modernization.",
+      },
+      {
+        type: "p",
+        text: "Reactions to COP30 were mixed. Several observer groups, including REN21, said the final text fell short of setting clear implementation pathways for renewables. Even so, the scale of the transmission and storage pledge suggests that grid readiness is now being treated as its own priority, separate from generation targets.",
+      },
+      {
+        type: "h2",
+        text: "What Grid Modernization Looks Like in Practice",
+      },
+      {
+        type: "p",
+        text: "Green energy grid modernization is not one single project. It is a collection of overlapping upgrades, including:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Grid enhancing technologies that squeeze more capacity out of existing lines",
+          "Battery storage co located with power plants to smooth out supply",
+          "Faster permitting and connection processes to clear project backlogs",
+          "Smart meters and sensors that give operators real time visibility",
+          "Regional interconnections that let regions share surplus power",
+        ],
+      },
+      {
+        type: "p",
+        text: "None of these are experimental anymore. They are being deployed today, and the IEA data suggests they are among the fastest and cheapest ways to relieve pressure on strained networks, often faster than building entirely new transmission lines.",
+      },
+      {
+        type: "h2",
+        text: "Challenges Still Standing in the Way",
+      },
+      {
+        type: "p",
+        text: "Progress is real, but so are the obstacles. A few stand out clearly in recent reporting:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Funding is uneven. The IEA noted that some governments, including the United States, are pulling back tax incentives for new solar and wind projects starting in 2026.",
+          "Permitting remains slow in many regions, even where funding exists.",
+          "Political will varies sharply by country, as shown by the fact that only 60 nations had submitted updated climate pledges with 2035 targets by late September 2025.",
+          "Grid connection queues remain long, even in markets with strong renewable growth.",
+        ],
+      },
+      {
+        type: "p",
+        text: "These are not reasons to expect failure. They are reminders that green energy grid modernization is as much a policy and coordination challenge as it is an engineering one.",
+      },
+      {
+        type: "h2",
+        text: "Looking Ahead",
+      },
+      {
+        type: "p",
+        text: "The direction of travel is clear even where the pace is not. Governments are spending more on grids. Utilities are pledging tens of billions specifically toward transmission and storage. International bodies are tracking the gap between ambition and results with growing precision.",
+      },
+      {
+        type: "p",
+        text: "What happens next depends on execution. Faster permitting, continued investment, and coordinated policy will determine whether green energy grid modernization keeps pace with renewable generation, or becomes the choke point that slows the broader energy transition down.",
+      },
+      {
+        type: "h2",
+        text: "Related Reading",
+      },
+      {
+        type: "p",
+        text: "For deeper coverage of global emissions targets, the Paris Agreement pathway, and how national climate pledges are evolving after COP30, explore our Climate section.",
+      },
+      {
+        type: "p",
+        text: "For analysis on how energy policy, trade restrictions, and international climate finance are reshaping relationships between major economies, explore our Geopolitics section.",
+      },
+      {
+        type: "p",
+        text: "Sources: International Energy Agency, State of Energy Policy 2026 and Electricity 2026; United Nations Environment Programme, Emissions Gap Report 2025; COP30 Belem Package outcomes as reported by UN News and REN21.",
       },
     ],
   },

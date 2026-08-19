@@ -155,6 +155,18 @@ export default async function ArticlePage({
                 </h3>
               );
             }
+            if (block.type === "ul") {
+              return (
+                <ul
+                  key={i}
+                  className="list-disc pl-6 space-y-2 mb-5 text-ink/75 text-base leading-relaxed"
+                >
+                  {block.items.map((item, j) => (
+                    <li key={j}>{item}</li>
+                  ))}
+                </ul>
+              );
+            }
             return (
               <p key={i} className="text-ink/75 text-base leading-relaxed mb-5">
                 {block.text}
