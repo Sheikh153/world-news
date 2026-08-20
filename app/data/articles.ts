@@ -594,4 +594,233 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: "global-inflation-forecasts-2026",
+    title: "Global Inflation Forecasts 2026: What the Latest Data Shows",
+    metaDescription:
+      "Global inflation forecasts 2026 have shifted sharply this year. See what the IMF, World Bank, and OECD now expect, and why prices are proving harder to tame than hoped.",
+    excerpt:
+      "A few months of encouraging disinflation data have given way to upward revisions across the IMF, World Bank, and OECD, as conflict, tariffs, and food prices bite at once.",
+    category: "economy",
+    tags: ["inflation", "IMF", "global growth"],
+    author: "Your Name",
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    readTime: "5 min read",
+    coverImage: "https://picsum.photos/seed/global-inflation-forecasts-2026/1200/700",
+    coverImageAlt: "A financial trading screen showing candlestick charts and technical indicators",
+    content: [
+      {
+        type: "p",
+        text: "Global inflation forecasts 2026 looked far more encouraging just a few months ago. Economists were tracking a steady, if slow, decline back toward target. That path has since bent upward. Conflict in the Middle East, higher energy and food prices, and lingering trade tensions have pushed several major institutions to revise their inflation outlooks higher, even as growth forecasts get trimmed at the same time.",
+      },
+      {
+        type: "p",
+        text: "This piece breaks down what the latest global inflation forecasts 2026 actually say, why they shifted, and where prices are expected to land by 2027.",
+      },
+      {
+        type: "h2",
+        text: "The Latest Global Inflation Forecasts 2026",
+      },
+      {
+        type: "p",
+        text: "The International Monetary Fund's July 2026 World Economic Outlook Update marked a notable reversal. Global headline inflation is now projected to rise from 4.1 percent in 2025 to 4.7 percent in 2026, before easing to 3.9 percent in 2027. That is a 0.3 percentage point upward revision for 2026 compared with the IMF's own April forecast.",
+      },
+      {
+        type: "p",
+        text: "The IMF pins the increase mainly on higher energy and food prices tied to the conflict in the Middle East. As IMF Chief Economist Pierre Olivier Gourinchas put it, the global economy had been on a steady growth path before the war disrupted that momentum.",
+      },
+      {
+        type: "h2",
+        text: "Why the Outlook Shifted Mid Year",
+      },
+      {
+        type: "p",
+        text: "Earlier in 2026, the picture looked different. The IMF's January update still expected inflation to keep falling, and the World Bank's own January projection put global inflation at just 2.6 percent for the year. A few factors explain the gap between those early estimates and the July revision:",
+      },
+      {
+        type: "ul",
+        items: [
+          "The outbreak of conflict in the Middle East disrupted energy markets",
+          "Tariff related cost pressures continued feeding into consumer prices in the United States",
+          "Food price pressures picked up alongside energy costs",
+          "Inflation expectations rose across both advanced and emerging economies, mostly over the short term",
+        ],
+      },
+      {
+        type: "h2",
+        text: "How Regions Compare",
+      },
+      {
+        type: "p",
+        text: "Global inflation forecasts 2026 are not uniform across countries. The IMF and OECD data point to real divergence depending on a country's exposure to the conflict and its position in the global energy and technology markets.",
+      },
+      {
+        type: "ul",
+        items: [
+          "The OECD projects G20 advanced economy headline inflation at 4.0 percent in 2026, before moderating to 2.7 percent in 2027",
+          "US inflation is expected to peak around 4.2 percent in 2026 under the OECD's outlook, with core inflation returning toward target only during 2027",
+          "Energy exporters outside the conflict zone are benefiting from favorable terms of trade",
+          "Energy importers with limited participation in the technology sector, a group that includes many low income countries, face the sharpest headwinds",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Growth Is Slowing at the Same Time",
+      },
+      {
+        type: "p",
+        text: "Rising prices are only half of the story behind global inflation forecasts 2026. Growth projections have moved lower in parallel. The World Bank's June 2026 Global Economic Prospects report projects global growth slowing to 2.5 percent in 2026, down from 2.9 percent in 2025, marking the lowest rate since the pandemic. The IMF's own growth forecast sits at 3.1 percent for 2026 under its reference scenario, well below the roughly 3.3 percent pace seen in recent years.",
+      },
+      {
+        type: "p",
+        text: "That combination, higher prices alongside slower growth, is what economists describe as a difficult policy environment, since raising interest rates to fight inflation risks slowing growth further.",
+      },
+      {
+        type: "h2",
+        text: "What Could Change the Picture",
+      },
+      {
+        type: "p",
+        text: "The IMF and World Bank both frame their July and June projections as conditional on the conflict staying limited in scope and duration. A few risks could shift global inflation forecasts 2026 again before the year ends:",
+      },
+      {
+        type: "ul",
+        items: [
+          "A prolonged or escalating Middle East conflict could push energy prices higher still",
+          "Renewed trade tensions could add fresh cost pressure on goods",
+          "Stronger than expected AI driven productivity gains could ease some cost pressures in the technology sector",
+          "Currency depreciation in emerging markets could amplify local inflation risks",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Related Reading",
+      },
+      {
+        type: "p",
+        text: "For deeper coverage of interest rate decisions, growth forecasts, and how central banks are responding to shifting inflation data, explore our Economy section.",
+      },
+      {
+        type: "p",
+        text: "For analysis on how the Middle East conflict and global trade tensions are reshaping energy markets and economic forecasts, explore our Geopolitics section.",
+      },
+      {
+        type: "p",
+        text: "Sources: International Monetary Fund, World Economic Outlook Update, July 2026 and April 2026; World Bank, Global Economic Prospects, June 2026 and January 2026; OECD Economic Outlook.",
+      },
+    ],
+  },
+  {
+    slug: "trade-tariff-policy-global-economic-growth",
+    title: "Trade Tariff Policy Global Economic Growth: What the Numbers Say",
+    metaDescription:
+      "Trade tariff policy global economic growth links are shifting fast in 2026. See what the IMF, WTO, and OECD now project as tariffs work their way through the world economy.",
+    excerpt:
+      "A year of front-loaded shipments delayed the real impact of 2025's tariffs. The WTO, IMF, and OECD now say that delay is ending, and the effects are landing unevenly.",
+    category: "economy",
+    tags: ["tariffs", "trade policy", "global growth"],
+    author: "Your Name",
+    publishedAt: "2026-08-19",
+    updatedAt: "2026-08-19",
+    readTime: "5 min read",
+    coverImage: "https://picsum.photos/seed/trade-tariff-policy-global-economic-growth/1200/700",
+    coverImageAlt: "A hand holding a magnifying glass over a world map made of coins",
+    content: [
+      {
+        type: "p",
+        text: "The relationship between trade tariff policy global economic growth trends has become one of the defining economic stories of the past year. Tariffs announced in 2025 did not hit the global economy immediately. Instead, businesses front loaded shipments, adjusted supply chains, and absorbed some of the cost, delaying the real impact. That delay is now ending, and forecasters across major institutions are recalculating what tariffs mean for growth in 2026 and beyond.",
+      },
+      {
+        type: "p",
+        text: "This piece looks at what the latest data actually says about trade tariff policy global economic growth, and why the picture keeps shifting.",
+      },
+      {
+        type: "h2",
+        text: "How Trade Tariff Policy Global Economic Growth Links Have Shifted",
+      },
+      {
+        type: "p",
+        text: "The World Trade Organization delivered one of the clearest warnings on this front. In its October 2025 outlook, the WTO sharply cut its 2026 forecast for global merchandise trade volume growth to just 0.5 percent, down from an earlier estimate of 1.8 percent. Director General Ngozi Okonjo Iweala called the outlook for next year bleaker and said she remained very concerned.",
+      },
+      {
+        type: "p",
+        text: "The WTO explained the shift plainly. Trade growth held up better than expected through 2025 because businesses rushed shipments ahead of tariff hikes. That front loading effect is fading, and the WTO expects the fuller impact of higher tariffs to be felt for a complete year in 2026.",
+      },
+      {
+        type: "h2",
+        text: "What the IMF Now Projects",
+      },
+      {
+        type: "p",
+        text: "The International Monetary Fund has told a more resilient story overall, though tariffs remain a central theme in every recent update. In January 2026, the IMF raised its global growth forecast to 3.3 percent, citing businesses adapting supply chains and trade agreements that helped lower the effective US tariff rate from around 25 percent to roughly 18.5 percent.",
+      },
+      {
+        type: "p",
+        text: "That improvement did not last. By April 2026, the IMF revised its outlook down again, this time due to conflict in the Middle East rather than tariffs directly, though the fund noted that easing trade tensions had been expected to support growth before the war disrupted momentum. The interplay between trade tariff policy global economic growth trends and other shocks, including energy and geopolitical risk, is now central to how forecasters model the year ahead.",
+      },
+      {
+        type: "h2",
+        text: "Where the Impact Is Concentrated",
+      },
+      {
+        type: "p",
+        text: "Tariff effects are not landing evenly across the world economy. Several patterns stand out in the latest data:",
+      },
+      {
+        type: "ul",
+        items: [
+          "North American trade flows are expected to make a negative contribution to global merchandise trade growth in both 2025 and 2026",
+          "Asia has provided the largest positive contribution to global trade growth, though that contribution is expected to shrink in 2026",
+          "Global services exports growth is projected to slow from 6.8 percent in 2024 to 4.4 percent in 2026",
+          "Artificial intelligence related trade, including semiconductors and servers, has partly offset tariff drag on goods trade",
+        ],
+      },
+      {
+        type: "h2",
+        text: "The Bigger Picture on Growth",
+      },
+      {
+        type: "p",
+        text: "Despite the tariff related slowdown in trade volumes, overall global GDP growth has proven more resilient than many economists expected a year ago. The WTO projects global GDP growth easing only slightly, from 2.7 percent in 2025 to 2.6 percent in 2026. The IMF's own figures, while revised down over the course of the year due to the Middle East conflict, still point to growth in the low 3 percent range rather than a sharp contraction.",
+      },
+      {
+        type: "p",
+        text: "Economists attribute much of that resilience to a few offsetting forces, including strong technology investment, fiscal support in several major economies, and the private sector's ability to reroute supply chains faster than tariffs could fully bite.",
+      },
+      {
+        type: "h2",
+        text: "Risks That Could Reshape the Outlook Again",
+      },
+      {
+        type: "p",
+        text: "Every major institution tracking trade tariff policy global economic growth links flags similar risks ahead. The clearest ones include:",
+      },
+      {
+        type: "ul",
+        items: [
+          "A rebound in tariffs or failure to reach lasting trade agreements between major economies",
+          "Escalation of the conflict in the Middle East, which could compound existing trade disruptions with an energy price shock",
+          "A correction in AI related technology investment, which has been a key offset to tariff drag",
+          "Renewed currency or financial market volatility tied to shifting trade policy",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Related Reading",
+      },
+      {
+        type: "p",
+        text: "For deeper coverage of global growth forecasts, inflation trends, and how central banks are responding to shifting trade conditions, explore our Economy section.",
+      },
+      {
+        type: "p",
+        text: "For analysis on how tariff policy, trade negotiations, and the Middle East conflict are reshaping global supply chains, explore our Geopolitics section.",
+      },
+      {
+        type: "p",
+        text: "Sources: World Trade Organization, Global Trade Outlook and Statistics, October 2025 and March 2026; International Monetary Fund, World Economic Outlook, January 2026 and April 2026.",
+      },
+    ],
+  },
 ];
