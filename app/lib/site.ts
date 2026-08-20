@@ -1,5 +1,5 @@
 export const site = {
-  name: "The Global Brief",
+  name: "Terravox",
   description:
     "Clear, well-sourced explainers on the forces shaping world affairs — economics, diplomacy, climate, and technology.",
   // Update this once the site is deployed to its real domain.

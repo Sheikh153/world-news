@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className="max-w-[1180px] mx-auto px-6">
         <div className="h-16 flex items-center justify-between border-b border-line">
           <Link href="/" className="font-display text-2xl font-bold text-ink">
-            The Global Brief
+            Terravox
           </Link>
           <span className="hidden sm:block text-xs uppercase tracking-[0.2em] text-ink/45">
             World Affairs, Explained
